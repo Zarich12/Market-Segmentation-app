@@ -6,13 +6,13 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import pickle
 
-filename = 'final_model.sav'
+filename = 'final_model.pkl'
 loaded_model = pickle.load(open(filename, 'rb'))
 df = pd.read_csv("Clustered_Customer_Data.csv")
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
 st.markdown('<style>body{background-color: Blue;}</style>',unsafe_allow_html=True)
-st.title("Prediction")
+st.title("Customer Segmentation Predictor")
 
 with st.form("my_form"):
     balance=st.number_input(label='Balance',step=0.001,format="%.6f")
