@@ -29,8 +29,9 @@ This project requires you to develop a customer segmentation to give recommendat
 - Model Deployment
 
 ### Deployment
-We have created a Streamlit Application based on this clustering technique, where we are taking the customer details & identifying which cluster the customer belongs to
-[Here](http://192.168.242.253:8501) 
+We have created a Streamlit Application based on this clustering technique, where we are taking the customer details & identifying which cluster the customer belongs to;
+
+[Here](https://zarich12-market-segmentation-app-app-qbh2cr.streamlitapp.com/) 
 
 
 
